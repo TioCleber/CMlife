@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style-position: inside;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+}
+
+/*Header*/
+#menu{
+    background: #1fadad;
+}
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    height: 80px;
+}
+
+#home img{
+    max-width: 150px;
+}
+
+#menuOp{
+    padding: 10px;
+}
+
+#menuOp a{
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+#menuOp a:hover{
+    color: #2652D2;
+}
+
+
+/*Main*/
+#fundo{
+    background-image: url(./assets/recepcao.png);
+    height: 91vh;
+    background-size: cover;
+}
+
+#apresentaçao h1{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 300px;
+    font-size: 4em;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+
+/*sobre*/
+#sobre{
+    max-width: 1024px;
+    margin: auto;
+}
+
+#clinica{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#clinica h2{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+#clinica p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+#especificaçao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#especificaçao img{
+    height: 350px;
+    width: 250px;
+}
+
+#especificaçao h3{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#especificaçao li{
+    font-size: 1.3em;
+    line-height: 1.6;
+    padding-left: 30px;
+}
+
+
+/*Especialidades*/
+#multi{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#multi h3{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+#multi p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+/*Imagens*/
+#imagens{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#imagens img{
+    max-width: 450px;
+    border-radius: 5px 5px 0 0;
+}
+
+figure{
+    box-shadow: 3px 5px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#imagens figcaption{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+
+.button a{
+    background: #1fadad;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-weight: 800;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+.button a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #2652D2;
+}
+
+/*Contato e Rota*/
+#contato{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contato h3{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+#contato p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.inframe {
+    max-width: 95%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*footer*/
+footer{
+    background: #1fadad;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 2;
+}
+
+footer p{
+    color: white;
+}
