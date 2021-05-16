@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+}
+
+/*Header*/
+#menu{
+    background: #1fadad;
+}
+
+#home{
+    padding-left: 10px;
+}
+
+#home img{
+    max-width: 150px;
+}
+
+#menuOp{
+    padding: 10px;
+}
+
+#menuOp a{
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+#menuOp a:hover{
+    color: #2652D2;
+}
+
+
+/*Main*/
+#fundo{
+    background-image: url(./assets/recepcao.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+#apresentaçao h1{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+#apresentaçao{
+    animation-name: opacity;
+    animation-duration: 4s;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+/*sobre*/
+#sobre{
+    max-width: 1024px;
+    margin: auto;
+}
+
+#clinica{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#clinica h2{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+#clinica p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+#especificaçao{
+    display: flex;
+    justify-content: center;
+    list-style-position: inside;
+}
+
+#especificaçao img{
+    display: none;
+}
+
+#especificaçao h3{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#especificaçao li{
+    font-size: 1.3em;
+    line-height: 1.6;
+    padding-left: 30px;
+}
+
+
+/*Especialidades*/
+#multi{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#multi h3{
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+#multi p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+/*Imagens*/
+#imagens{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#imagens img{
+    border-radius: 5px 5px 0 0;
+}
+
+figure{
+    box-shadow: 3px 5px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#imagens figcaption{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.button{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+
+.button a{
+    background: #1fadad;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-weight: 800;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+.button a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #2652D2;
+}
+
+/*Contato e Rota*/
+#contato{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contato h3{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+#contato p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.inframe {
+    max-width: 95%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+/*footer*/
+footer{
+    background: #1fadad;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 2;
+    margin-top: 50px;
+}
+
+footer p{
+    color: white;
+}
+
+
+/*Pag Especialidades*/
+#navPag nav ul{
+    display: flex;
+    list-style: none;
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#navPag nav ul li{
+    padding: 10px;
+}
+
+#navPag nav ul li a{
+    border-bottom: 2px solid #1fadad ;
+    padding: 10px 10px 5px 10px;
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+
+#navPag a:hover{
+    background: rgba(0,0,0,0.19);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#navPag h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.especialidade{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.especialidade h3{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.especialidade p{
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+#tabelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#tabelas img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+table{
+    width: 90%;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(2n+1){
+    background: #ccc;
+}
+
+tr:nth-child(even){
+    background: #E3E6E6;
+}
+
+td{
+    text-align: center;
+}
+th{
+    padding: 15px;
+    background: #1fadad;
+    color: white;
+}
+
+
+
+/*Medias*/
+
+@media only screen and (min-width: 768px){
+    /*Menu*/
+    #home{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+
+    /*Principal*/
+    #apresentaçao h1{
+        font-size: 4em;
+    }
+
+    #especificaçao{
+        justify-content: space-around;
+    }
+
+    #especificaçao img{
+        height: 350px;
+        width: 250px;
+        display: initial;
+    }
+
+    #imagens img{
+        max-width: 450px;
+    }
+
+    #menuOp a{ 
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 1010px){
+    
+    #imagens img{
+        max-width: 320px;
+    }
+
+    /*Pag especilidades*/
+    #tabelas img{
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    
+    #menu{
+        text-align: center;
+    }
+
+    #menuOp{
+        margin: 0 auto;
+        border-top: 2px solid rgba(0,150,136,0.6);
+    }
+    
+    #apresentaçao h1{
+        font-size: 3em;
+    }
+
+
+    /*Pag Especialidades*/
+    table{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 356px){
+    
+    #imagens img{
+        max-width: 290px;
+    }
+
+    #menuOp{
+        padding: 10px 0;
+    }
+
+    #menuOp a{ 
+        font-size: 1rem;
+    }
+
+}
+
+
+
