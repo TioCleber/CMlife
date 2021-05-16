@@ -42,6 +42,7 @@
     background-image: url(./assets/recepcao.png);
     height: 100vh;
     background-size: cover;
+    background-position-x: center;
 }
 
 #apresentaçao h1{
