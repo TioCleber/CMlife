@@ -234,6 +234,10 @@ footer p{
     flex-wrap: wrap;
 }
 
+#navPag{
+    padding-top: 100px;
+}
+
 #navPag nav ul li{
     padding: 10px;
 }
