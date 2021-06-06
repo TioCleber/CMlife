@@ -10,6 +10,8 @@
 /*Header*/
 #menu{
     background: #1fadad;
+    position: fixed;
+    width: 100%;
 }
 
 #home{
