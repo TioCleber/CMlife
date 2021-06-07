@@ -10,9 +10,6 @@
 /*Header*/
 #menu{
     background: #1fadad;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
 }
 
 #home{
@@ -232,10 +229,6 @@ footer p{
     padding: 40px;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-#navPag{
-    padding-top: 100px;
 }
 
 #navPag nav ul li{
